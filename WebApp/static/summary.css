@@ -1,0 +1,66 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Dongle', sans-serif;
+    font-size: 20px;
+}
+body{
+background: rgb(21,6,103);
+background: linear-gradient(225deg, rgba(21,6,103,1) 0%, rgba(34,39,73,1) 13%, rgba(1,1,1,1) 43%) fixed;
+}
+.container{
+    display: flex;
+    /* background-color: black; */
+    padding: 50px;
+    /* flex: 1 1 1; */
+    /* width: 0; */
+}
+
+.orginal-doc{
+    background-color:rgba(238, 157, 157, 0.114);
+    padding:15px;
+    padding-top:0px;
+    border-radius: 10px;
+    width:100%;
+    margin-right: 10px;
+    border-style: solid;
+    border-color: rgba(123, 42, 42, 0.61);
+    border-width: 3px;
+    color:rgba(255, 255, 255, 0.652);
+    transition: background-color ease 0.4s;
+}
+
+.orginal-doc:hover{
+    color:rgba(255, 255, 255, 1);
+    background-color:rgba(238, 157, 157, 0.248);
+}
+
+.summarized-doc{
+    background-color:rgba(127, 229, 141, 0.116);
+    padding:15px;
+    padding-top:0px;
+    border-radius: 10px;
+    width:100%;
+    margin-left: 10px;
+    border-style: solid;
+    border-color: rgba(77, 157, 84, 0.645);
+    border-width: 3px;
+    color:rgba(255, 255, 255, 0.652);
+    transition: background-color ease 0.4s;
+}
+
+.summarized-doc:hover{
+    color:rgba(255, 255, 255, 1);
+    background-color:rgba(127, 229, 141, 0.248);
+}
+
+.title{
+background-color: transparent;
+text-align: center;
+padding:10px;
+padding-top:30px;
+margin-bottom:10px;
+border-radius:10px;
+color: rgb(255, 255, 255);
+font-size: 35px;
+}
